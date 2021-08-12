@@ -1,14 +1,14 @@
 class Hotel {
-  String? imageUrl;
-  String? name;
-  String? address;
-  int? price;
+  String imageUrl;
+  String name;
+  String address;
+  int price;
 
   Hotel({
-    this.imageUrl,
-    this.name,
-    this.address,
-    this.price,
+    required this.imageUrl,
+    required this.name,
+    required this.address,
+    required this.price,
   });
 }
 
