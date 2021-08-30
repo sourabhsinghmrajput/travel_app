@@ -6,7 +6,7 @@ import 'package:travel_app/models/destination_model.dart';
 import '../destination_screen.dart';
 
 class DestinationCarousel extends StatelessWidget {
-  const DestinationCarousel({Key? key}) : super(key: key);
+  const DestinationCarousel({Key? key}) : super(key: key);    
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class DestinationCarousel extends StatelessWidget {
             left: 20.0,
           ),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,    
             children: [
               Text(
                 "Top Destinations",
@@ -156,7 +156,7 @@ class DestinationCarousel extends StatelessWidget {
                                       ),
                                       Text(
                                         destination.country,
-                                        style: TextStyle(color: Colors.white),
+                                        style: TextStyle(color: Colors.white),    
                                       ),
                                     ],
                                   ),
